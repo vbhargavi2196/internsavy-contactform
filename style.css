@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: pink;
+  padding:5%;
+}
+.bgimage{
+    background-image: url(citybg.jpg);
+    background-attachment:static;
+    background-size: cover;
+    height: 300px;
+    max-width: 100%;
+    border-radius:4px ;
+    padding-top: 5px;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px;
+  border: 5px solid palevioletred;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color:pink;
+  color:black;
+  padding:20px 60px 20px 60px;
+  border:solid palevioletred;
+  margin-top: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(146, 18, 63);
+}
+.box{
+  border-radius: 15px;
+  background-color:black;
+  padding: 20px;
+  height:auto;
+  max-width:100%;
+  color:white;
+  font-size: 20px;
+  font-family: verdana;
+ 
+ 
+}

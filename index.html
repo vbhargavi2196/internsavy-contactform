@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Contact form</title>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-compatible" content="IE=Edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+<div class="box">
+    <section class="bgimage">
+        <h2 style="font-family:copper plate;color:white;text-align: center;font-size: 50px;"><b>CONTACT US</b></h2>
+        <h4 style="font-family:lucida console;color:white;text-align: center;font-size: 30px;"><b>
+         Fill out the form below to continue!</b></h4>
+    </section>
+    <br>
+  <form action="mailto:vbhargavi2196@gmail.com?subject=contact" method="post">
+   
+    <label for="fname"><i class="fa fa-user"></i><b> First Name</b></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name." required>
+
+    <label for="lname"><i class="fa fa-user"></i><b> Last Name</b></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name." required>
+
+    <label for="email" ><i class="fa fa-envelope"></i><b> mail</b></label>
+    <input type="text" id="email" name="Email" placeholder="abc@gmail.com" required>
+
+    <label for="phone"><i class="fa fa-phone"></i><b> Phone</b></label>
+    <input type="text" id="phone" name="Phone" placeholder="**********" required>
+
+    <label for="country" ><i class="fa fa-globe"></i><b> Country</b></label>
+    <select id="country" name="country" style="height: 50px;width: 200px;border-radius:5px ;
+    border: solid 5px palevioletred;">
+      <option value="india">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="china">China</option>
+      <option value="pakistan">Pakistan</option>
+    </select>
+    <br>
+    <label for="message"><i class="fa fa-envelope"></i><b> Message</b></label>
+    <input type="text" id="message" name="Message" placeholder="write message" required>
+     <br>
+    <input type="submit" value="Submit" style="font-size: 15px;font-family:sans-serif;border-radius: 5px;border:solid 5px palevioletred;" required>
+  </form>
+</div>
+
+</body>
+</html>
