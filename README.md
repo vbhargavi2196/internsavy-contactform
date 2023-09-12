@@ -1,5 +1,5 @@
 # internsavy-contactform
-Deployment-link:https://vbhargavi2196.github.io/internsavy-contactforn/
+Deployment-link:https://vbhargavi2196.github.io/internsavy-contactform/
 ### Project:-
 In this project I have tried to make a responsive contact form website.
 ### Technologies used
